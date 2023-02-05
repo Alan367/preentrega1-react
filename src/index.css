@@ -1,13 +1,48 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.itm{
+  margin-bottom: 0;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.reset-margin{
+  margin-left: 0;
+  margin-right: 0;
 }
+.destacado{
+height: 100vh;
+width: 100%;
+}
+.destacado2{
+    background-image: url(./components/images/portada\ .png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.reset-padding{
+  padding-left: 0;
+  padding-right: 0;
+}
+.footer {
+    width: 100%;
+    background-color: #212529;
+    color: #f8f9fa;
+    background-image: none;
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px;
+    margin-top: auto; }
+    .footer .buttons {
+      min-width: 300px;
+      display: flex;
+      justify-content: space-around; }
+    .footer .buttons a {
+      text-decoration: none;
+      font-size: 28px;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      background: #314652;
+      color: #f1f1f1;
+      border-radius: 50%;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+      transition: all .4s ease-in-out; }
+    .footer .buttons a:hover {
+      transform: scale(1.2); }
