@@ -4,7 +4,7 @@ const Item = ({item})=>{
 
     return(
 
-        <Link to={"/item/" + item.index}>
+        <Link to={"/item/" + item.id}>
         <div>
             <div className="card ">
                 <img src={item.imagen} className="card-img-top" alt={item.nombre} height={250}/>
